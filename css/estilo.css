@@ -1,0 +1,34 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+ 
+  .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* Agregando estas dos valores "center" logre ademas que los divs que contienne los numeros se mantengan centrados 
+     con respecto a la seccion  */
+    width: 80%;
+    max-width: 640px;
+    min-height: 500px;  
+    margin: auto;
+    background-color: #d3d3d3;
+  }
+  
+  .item{
+    width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+  }
+  
+   /*
+  Consigna:
+  Asignar la propiedad que corresponda para que los ítems dentro de container se posicionen horizontalmente en orden inverso.
+  */
